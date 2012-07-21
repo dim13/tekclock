@@ -1,0 +1,9 @@
+# $Id$
+
+CFLAGS+=	-Wall
+PROG=		tekclock
+SRCS=		tekclock.c tekplot.c
+LDFLAGS+=		-lm
+NOMAN=
+
+. include <bsd.prog.mk>
